@@ -133,22 +133,60 @@ body {
     background-color: rgba(255, 244, 214, 1);
 }
 
-.footer-part {
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub-contain {
+    background-color: rgba(255, 244, 214, 1);
+    width: 850px;
+    height: 250px;
+    justify-content: center;
+}
+
+.email-box {
+    border: none;
+    width: 320px;
+    height: 45px;
+    outline: none;
+    text-align: center;
+    margin-left: 210px;
+    margin-top: 100px;
+}
+
+.subscribe-button {
+    color: white;
+    text-decoration: none;
+    padding: 15px 28px;
+    background-color: rgba(255, 89, 89, 1);
+    margin-left: -10px;
+}
+
+
+
+
+
+
+
+.footer-container {
     height: 200px;
     text-align: center;
-    background: black;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-part h1 {
+.footer-container h1 {
     font-family: 'Lobster', cursive;
+    font-style: italic;
     color: red;
     font-size: 2.5rem;
 }
 
 
-.footer-part p {
+.footer-container p {
     color: gray;
 }
