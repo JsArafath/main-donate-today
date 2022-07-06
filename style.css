@@ -35,13 +35,14 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .paragraph-two-size {
     text-align: center;
     padding-left: 408px;
     padding-right: 408px;
+    color: rgba(112, 112, 112, 1);
 }
 
 .container {
@@ -99,4 +100,55 @@ body {
     text-decoration: none;
     color: rgb(86, 85, 85);
     font-weight: bold;
+}
+
+.card-plan {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.card-section-plan {
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+}
+
+.card-section-plan img {
+    width: 20%;
+}
+
+#one-color {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#two-color {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#three-color {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.footer-part {
+    height: 200px;
+    text-align: center;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-part h1 {
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 2.5rem;
+}
+
+
+.footer-part p {
+    color: gray;
 }
