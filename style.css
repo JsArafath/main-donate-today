@@ -1,7 +1,7 @@
 body {
     background-image: url(cover-photo.jpg);
     background-size: cover;
-    height: 90vh;
+    height: 95vh;
     background-repeat: no-repeat;
 }
 
@@ -164,7 +164,7 @@ body {
 .width-section img {
     width: 250%;
     border-radius: 5%;
-    margin-left: -310px;
+    margin-left: -330px;
 }
 
 .right-shape {
@@ -207,17 +207,18 @@ body {
 
 
 
-.footer-container {
+footer {
     height: 200px;
     text-align: center;
     background-color: black;
     display: flex;
-    position: inherit;
     align-items: center;
     justify-content: center;
+    background-size: auto;
+    padding: 50px;
 }
 
-.footer-container h1 {
+footer h1 {
     font-family: 'Lobster', cursive;
     font-style: italic;
     color: red;
@@ -225,6 +226,6 @@ body {
 }
 
 
-.footer-container p {
+footer p {
     color: gray;
 }
